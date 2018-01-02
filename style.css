@@ -3,40 +3,106 @@
   padding: 0px;
   font-family: sans-serif; 
 }
+
+body {
+  min-width: 327px;
+  /*width: 1300px;*/
+}
   
 header {
-  display: fixed;
+  /*display: fixed;*/
   /*border: 1px solid black;*/
   background-color: #314F88;
-
+  height: 194px;
+  margin-top: -5px;
 }
 
-h5{
- /* position: absolute;
-  right:2px;
-  top: 4px;*/
-  /*float: right;*/
-  /*border: 1px solid black;*/
-  text-align: right;
-  color: white;
+.user {
+  width: 25px;
+  vertical-align: middle;
 }
 
-h5:hover {
+.arrow {
+  width: 29px;
+  border: 1px solid black;
+  border-radius: 32px;
+  background-color: white;
+  padding: 18px;
+  margin: 10px;
+}
+
+.img-1{
+  background-image: url(images/rizzo.png);
+  background-size: cover;
+  margin: 0
+}
+ .img-2{
+  background-image: url(images/russell.png);
+  background-size: cover;
+  margin: 0
+}
+
+ .img-3 {
+  background-image: url(images/bryant.png);
+  background-size: cover;
+  margin: 0
+}
+
+ .img-4 {
+  background-image: url(images/baez.png);
+  background-size: cover;
+  margin: 0
+}
+
+ .img-5 {
+  background-image: url(images/hendricks.png);
+  background-size: cover;
+  margin: 0
+}
+
+ .img-6 {
+  background-image: url(images/contreras.png);
+  background-size: cover;
+  margin: 0
+}
+
+ .img-7 {
+  background-image: url(images/heyward.png);
+  background-size: cover;
+  margin: 0
+}
+.img-8 {
+  background-image: url(images/schwarber.png);
+  background-size: cover;
+  margin: 0
+}
+.admin:hover {
   color: #DE2F21;
 } 
+
+.admin {
+  color: #3289C7;
+  text-align: right;
+  font-weight: lighter;
+  padding: 7px;
+}
 
 .drop-down-arrow{
   width: 17px;
   vertical-align: middle;
+}                        
 
-}                                                                                                                                                         
+.drop-down-arrow:hover {
+  color: #DE2F21;
+}  
+
 nav {                    
   display: inline-block;                                       
   /*border: 1px solid black;*/
 }
 
 div {
-  margin: 10px 24px;
+  margin: 5px 24px;
 }
 
 ul {
@@ -53,7 +119,7 @@ li {
   padding: 10px;
   text-transform: uppercase;
   font-size: 15px;
-  color: white;
+  color: #ECCF9F;
 }
 
 li:hover {                                                 
@@ -62,7 +128,7 @@ li:hover {
 
 li img {
   width: 17px;
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
 }
 
 .svg {
@@ -87,8 +153,9 @@ li img {
   display: inline-block;
   float: right;
   width: 115px;
-  margin: 0px 15px 17px;
-  /*border: 1px solid black;*/
+  margin: 0px 45px 17px;
+  position: relative;
+  bottom: 119px;
 }
 
 main {
@@ -108,6 +175,7 @@ h1 {
   margin: 10px 11px;
 }
 
+
 .wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -116,8 +184,10 @@ h1 {
 }
 .card {
   border: 1px solid black;
-  height: 359px;
-  width: 250px;;
+  /*height: 54%;
+  width: 21%;*/
+  height: 431px;
+  width: 300px;
   margin: 10px;
   background-color: white;
 }
@@ -133,7 +203,139 @@ h1 {
   height:12%;
 }    
 
+.link {
+  background-color: #F6F6F6;
+  width: 258px;
+  height: 56px;
+  font-size: 11px;
+  margin: 0 15px;
+  padding: 5p;
+  position: relative;
+  left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  width: 80%;
+  position: relative;
+  right: 13px;
+}
+
+.number {
+  margin: 18px 24px;
+}
+
 .number p {
   color: red;
-  font-size: 30px;
-}                                                                            
+  font-size: 31px;
+  margin-left: 21px;
+}  
+
+.number h6 {
+  position: relative;
+  bottom: 17px;
+  right: 5px;
+} 
+
+.number p {
+  position: relative;
+  bottom: 12px;
+  right: 23px;
+}
+
+
+.position {
+  margin: 19px 19px 2px ; 
+}
+
+.position p {
+  font-size: 18px;
+  margin-top: 2px;
+}
+
+.views {
+  display: inline-block;
+  position: relative;
+  left: 124px;
+  bottom: 26px;
+  text-align: center;
+}
+
+.views h6 {
+  font-size: 12px;
+  color: white;
+  font-weight: lighter;
+  margin-bottom: 5px;
+}
+.views p {
+  font-size:30px;
+  color: white;
+}
+
+h4 {
+  margin: 17px 0;
+  position: relative;
+  right: 5px;
+}
+
+h6 {
+  text-transform: uppercase;
+}  
+/*
+@media screen and (max-width: 660px) {
+
+  .logo {
+    margin: 0;
+    position: relative;
+    right: 35px;
+  }
+
+ li { 
+    display: block;
+    font-size: 10px;
+    margin:10px;
+  }
+}*/
+
+/*@media screen and (max-width: 525px) {
+  
+ li { 
+    display: block;
+    font-size: 10px;
+    margin:10px;
+  }*/
+
+@media screen and (max-width: 665px){
+  .logo { 
+    width: 143px;
+    position: relative;
+    bottom: 221px;
+    right: 14px;
+  }
+  .admin {
+    font-size: 13px;
+  }
+
+  header {
+    height: 194px;
+  }
+
+  ul {
+    position: relative;
+    bottom: 74px;
+  }
+
+  li { 
+    display: block;
+    font-size: 13px;
+    margin:10px;
+  }
+
+  .logo{
+    width: 143px;
+    position: relative;
+    bottom: 231px;
+    left: 36px;
+}
